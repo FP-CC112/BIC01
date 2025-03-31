@@ -1,7 +1,7 @@
 ﻿Algoritmo volumenCaja
 	// Ingreso de datos
 	Definir largo, ancho, altura, volumen Como Real;
-	Escribir "Ingresar las dimensiones de la caja; ";
+	Escribir "Ingresar las dimensiones de la caja (largo, ancho, altura): ";
 	Leer largo, ancho, altura;
 	
 	// Procesamiento de datos
