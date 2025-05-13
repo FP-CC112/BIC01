@@ -16,13 +16,13 @@ int main(){
         case 2: cout << "Febrero " << endl; break;
         case 3: cout << "Marzo " << endl; break;
         case 4: cout << "Abril " << endl; break;
-        case 5:{ // importante las llaves para delimitar el bloque del case.
+        case 5: // importante las llaves para delimitar el bloque del case.
             int dia = 05;
             int year = 2025; 
             cout << "Mayo " << endl; 
-            cout << dia << " " << year <<endl;
+            //cout << dia << " " << year <<endl;
             break;
-        }
+        
         case 6: 
             cout << "Junio " << endl;
             break;
