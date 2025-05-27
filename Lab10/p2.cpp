@@ -10,6 +10,10 @@ int main(){
     int A[10][13];
     int n = 10; //filas
     int m = 13; // columnas
+    int filamax;
+    int columnamax;
+    int filamin;
+    int columnamin;
 
     // Generando elementos de forma aleatoria entre -20 y 20
     srand(time(0));
@@ -33,18 +37,21 @@ int main(){
         for (int j = 0; j < m; ++j) {
             if (A[i][j] > elementoMax) {
                 elementoMax = A[i][j];
+                filamax = i;
+                columnamax =j;
             }
 
             if (A[i][j] < elementoMin) {
                 elementoMin = A[i][j];
+                filamin = i;
+                columnamin = j;
             }
 
         }
     }
 
-    cout << "Elemento maximo: " << elementoMax <<endl;
-
-
+    cout << "Elemento maximo: " << elementoMax << " indices: " << filamax << ", " << columnamax <<endl;
+    cout << "Elemento minimo: " << elementoMin << " indices: " << filamin << ", " << columnamin <<endl;
 
     
 
