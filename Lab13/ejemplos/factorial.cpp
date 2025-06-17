@@ -19,7 +19,7 @@ int factorialRec(int n) {
 
 int main(){
     cout << factorial(10) <<endl;
-    cout << factorial(10) << endl;
+    cout << factorial(35) << endl;
 
     return 0; 
 }
